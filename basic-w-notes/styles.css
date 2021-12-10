@@ -1,0 +1,27 @@
+body   {
+    margin: 0;
+    background-color: azure;
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        background-color: rgb(43, 156, 226);
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: rgb(226, 43, 86);
+    }
+}
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: rgb(98, 226, 43);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: rgb(126, 4, 247);
+    }
+}
